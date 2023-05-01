@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Showcase />} />
           <Route path="add" element={<Add />} />
-          <Route path="update" element={<Update />} />
+          <Route path="update/:id" element={<Update />} />
         </Route>
       </Routes>
     </BrowserRouter>
